@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dunia Ikan & Hewan Laut</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e0f7fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #004d40;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #00695c;
+        }
+
+        /* Gaya galeri gambar sejajar */
+        .galeri {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .galeri .item {
+            text-align: center;
+            width: 200px;
+        }
+
+        .galeri img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+
+        .galeri img:hover {
+            transform: scale(1.05);
+        }
+
+        .galeri p {
+            margin-top: 8px;
+            font-weight: bold;
+            color: #00695c;
+        }
+
+        footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dunia Ikan & Hewan Laut</h1>
+        <p>Selamat datang di dunia bawah laut yang penuh keajaiban!</p>
+    </header>
+
+    <nav>
+        <a href="#penyu">Penyu</a>
+        <a href="#paus">Paus</a>
+        <a href="#hiu">Hiu</a>
+        <a href="#lumba-lumba">Lumba-lumba</a>
+    </nav>
+
+    <section>
+        <h2 id="galeri">Galeri Hewan Laut</h2>
+        <div class="galeri">
+            <div class="item">
+                <img src="img/penyu.jpeg" alt="Gambar Penyu">
+                <p>Penyu</p>Penyu adalah hewan laut yang hidup sejak zaman dinosaurus. Mereka terkenal dengan tempurungnya yang keras dan kemampuannya berenang jauh
+            </div>
+            <div class="item">
+                <img src="img/paus.jpeg" alt="Gambar Paus">
+                <p>Paus</p>Paus adalah mamalia laut terbesar di dunia. Meskipun besar, mereka dikenal lembut dan suka berkomunikasi dengan suara-suara unik.
+            </div>
+            <div class="item">
+                <img src="img/hiu.jpeg" alt="Gambar Hiu">
+                <p>Hiu</p>Hiu adalah predator laut yang memiliki indra penciuman sangat tajam. Ada lebih dari 500 jenis hiu di seluruh dunia.
+            </div>
+            <div class="item">
+                <img src="img/lumba-lumba.jpeg" alt="Gambar Lumba-lumba">
+                <p>Lumba-lumba</p>Lumba-lumba adalah hewan yang sangat cerdas dan bersahabat dengan manusia. Mereka hidup berkelompok dan suka melompat di atas permukaan air.
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Dunia Ikan | Dibuat dengan 💙 oleh [Gerfasius Deprianus Ganumba]</p>
+    </footer>
+</body>
+</html>
